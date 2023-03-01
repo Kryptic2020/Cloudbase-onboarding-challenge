@@ -85,4 +85,5 @@ Is is assumed that this exercise does not focus on software development, the rea
 - Each section of onboarding.jsx could be separate file, be an individual component by category ex. personal details, bank details, etc
 - Validations has not been implemented as it is out of this scope.
 - Persistent data has not been implemented as it is out of this scope.
+- UI/UX such as Datepicker, thousand separation, responsible layout has been ignored as it is out of this scope.
 - Anything other than business logic approach has been ignored as it is out of this scope.
