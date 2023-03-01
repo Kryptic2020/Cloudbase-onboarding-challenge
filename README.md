@@ -86,7 +86,7 @@ The tax calculation logic can be found here [Github](https://github.com/Kryptic2
  ---  
   
     
-## Onboarding tax calculation logic/algorithm
+## Onboarding superannuation calculation logic/algorithm
 The superannuation calculation logic can be found here [Github](https://github.com/Kryptic2020/Cloudbase-onboarding-challenge/blob/main/src/helpers/superannuationCalculator.js)  
 ![super-calculator](super-calculator.png)  
   
