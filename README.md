@@ -1,70 +1,75 @@
-# Getting Started with Create React App
+## Guide - How to run the Onboarding Application
+1 - Clone the repo from [Github](http://)  
+2 - In the project directory, install dependencies by running:  
+`npm install`  
+3 - To run the app in the development mode:  
+`npm start`    
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## To run the test for tax calculation feature:  
+In the project directory, you can execute the test suit by running  
+`npm test taxCalculator.test.js` 
 
-## Available Scripts
+![tax](tax.png)
 
-In the project directory, you can run:
+## To run the test for superannuation calculation feature:  
+In the project directory, you can execute the test suit by running  
+`npm test superannuationCalculator.test.js` 
 
-### `npm start`
+![super](super.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Cloudcase Candidate Programming Exercise    
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Cloudcase (the company and the platform) is focussed on solving complex business problems for our clients.  
+The programming exercise below is designed to allow candidates to show us how they go about solving a business problem.  
+We are not trying to test you, and we do not encourage overthinking the solution.  
 
-### `npm test`
+A bank would like to onboard a new staff member who has just been recruited.  
+As part of this process, the bank would like to send the new staff member an electronic form to complete.  
+This form needs to capture the information required to set up the staff member in their payroll and HR systems.  
+However, their payroll system has a major limitation, it can’t calculate an individual’s annual tax nor their annual superannuation contributions.   
+Therefore, the onboarding process needs calculate these numbers.   
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Before the system is built the bank would like the following:
+- A design for the new onboarding form,
+- A simple program which can calculate the annual tax and superannuation for a given salary amount. 
 
-### `npm run build`
+As part of this exercise can you please create the following:
+* A design of what information the new staff member onboarding form should contain. This can be completed as: written text, drawn on paper (and scanned) or built in HTML/Javascript. 
+* Regarding the design above, please outline your reasons for the design choices you made.
+* A program to calculate the annual tax and superannuation for a given salary (please see rate table below). This can be deployed using Java or Javascript.
+* A few written or programmed tests to prove the tax and superannuation calculations
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Exercise solution - Onboarding
+To keep this exercise simple, we are considering the onboarding will be for an australian organisation, country specific.  
+The necessary fields for an onboarding form in Australia may vary depending on the company's specific requirements, but generally, an onboarding form in Australia should include the following fields:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Personal Information: Name, Address, Phone Number, Email, Date of Birth, Tax File Number (TFN)  
 
-### `npm run eject`
+- Employment Information: Employment start date, Job Title, Salary, Work Schedule, Role(Supervisor/Manager/Employee)  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Emergency Contact: Name, Relationship, Phone Number  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Bank Details: Bank Name, BSB Number, Account Number  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Superannuation: Superannuation Fund Name, Membership Number, Fund ABN  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Employment Eligibility: Proof of work eligibility, Visa status  
 
-## Learn More
+- Workplace Health and Safety: Any workplace health and safety concerns or requirements  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Policies and Procedures: Acknowledgment of company policies and procedures, including Code of Conduct, Workplace Health and Safety, Anti-Discrimination, etc.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Tax Declaration: Employee Tax File Number Declaration and Tax Withholding Form  
 
-### Code Splitting
+It is important to note that employers must ensure that they comply with privacy laws when collecting and handling employee information.   
+Employers should only collect information that is necessary and relevant to the employment relationship and have processes in place to ensure that the information is kept confidential and secure. 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Onboarding Form
+![top-page](top-page.png)
+![bottom-page](bottom-page.png)
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Form data on submit - (Modal created just to illustrate the data meant to be posted / integrated with Payroll and HR system - API) 
+![top-modal](top-modal.png)
+![bottom-modal](bottom-modal.png)
