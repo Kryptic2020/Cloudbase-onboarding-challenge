@@ -18,8 +18,12 @@ As part of this exercise can you please create the following:
 * A design of what information the new staff member onboarding form should contain. This can be completed as: written text, drawn on paper (and scanned) or built in HTML/Javascript. 
 * Regarding the design above, please outline your reasons for the design choices you made.
 * A program to calculate the annual tax and superannuation for a given salary (please see rate table below). This can be deployed using Java or Javascript.
-* A few written or programmed tests to prove the tax and superannuation calculations
+* A few written or programmed tests to prove the tax and superannuation calculations  
+  
 
+ ---  
+  
+    
 
 ## Exercise solution - Onboarding
 To keep this exercise simple, we are considering the onboarding will be for an australian organisation, country specific.  
@@ -44,21 +48,61 @@ The necessary fields for an onboarding form in Australia may vary depending on t
 - Tax Declaration: Employee Tax File Number Declaration and Tax Withholding Form  
 
 It is important to note that employers must ensure that they comply with privacy laws when collecting and handling employee information.   
-Employers should only collect information that is necessary and relevant to the employment relationship and have processes in place to ensure that the information is kept confidential and secure. 
+Employers should only collect information that is necessary and relevant to the employment relationship and have processes in place to ensure that the information is kept confidential and secure.   
+  
 
+ ---  
+  
+    
+## Onboarding Flow
+![onboarding-flow](onboarding-flow.png)  
+  
+
+ ---  
+  
+    
 ## Onboarding Form
  - Employment information does not require any input from the employee. Displaying these info at the onboarding form sent to the employee is optional and can could be omitted. However for the sake of this exercise I have decided to display it as read-only/disabled fields.
 ![top-page](top-page.png)
-![bottom-page](bottom-page.png)
+![bottom-page](bottom-page.png)  
+  
 
+ ---  
+  
+    
 ## Form data on submit - (Modal created just to illustrate the data meant to be posted / integrated with Payroll and HR system - API) 
 ![top-modal](top-modal.png)
-![bottom-modal](bottom-modal.png)
+![bottom-modal](bottom-modal.png)  
+  
 
-## Tech Stack
+ ---  
+  
+    
+## Onboarding tax calculation logic/algorithm  
+The tax calculation logic can be found here [Github](https://github.com/Kryptic2020/Cloudbase-onboarding-challenge/blob/main/src/helpers/taxCalculator.js)  
+![tax-calculator](tax-calculator.png)    
+  
+
+ ---  
+  
+    
+## Onboarding tax calculation logic/algorithm
+The superannuation calculation logic can be found here [Github](https://github.com/Kryptic2020/Cloudbase-onboarding-challenge/blob/main/src/helpers/superannuationCalculator.js)  
+![super-calculator](super-calculator.png)  
+  
+
+ ---  
+  
+    
+## Tech Stack  
  - Javascript - ReactJs library
  - Bootstrap - css stylesheet / Bootstrap components
- State managed locally with no persistent data
+ State managed locally with no persistent data  
+   
+
+ ---  
+  
+    
 ## Guide - How to run the Onboarding Form
 1 - Clone the repo from [Github](https://github.com/Kryptic2020/Cloudbase-onboarding-challenge)  
 2 - In the project directory, install dependencies by running:  
@@ -66,18 +110,33 @@ Employers should only collect information that is necessary and relevant to the 
 3 - To run the app in the development mode:  
 `npm start`    
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.  
+  
+
+ ---  
+  
+    
 
 ## To run the test for tax calculation feature:  
 In the project directory, you can execute the test suit by running  
 `npm test taxCalculator.test.js` 
 
 ![tax](tax.png)
+  
+
+ ---  
+  
+    
 
 ## To run the test for superannuation calculation feature:  
 In the project directory, you can execute the test suit by running  
 `npm test superannuationCalculator.test.js` 
 
-![super](super.png)
+![super](super.png)  
+  
+
+ ---  
+  
+    
 
 ## What the onboarding form does not include or did not care about:
 Is is assumed that this exercise does not focus on software development, the real target is on the business problem solving ability.
