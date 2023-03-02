@@ -147,7 +147,7 @@ The superannuation calculation logic can be found here [Github](https://github.c
     
 ## Guide - How to run the Onboarding Form
 
-1 - Clone the repo from [Github](https://github.com/Kryptic2020/Cloudbase-onboarding-challenge)  
+1 - Clone the repo from [Github](https://github.com/Kryptic2020/Cloudbase-onboarding-challenge/blob/main/README.md)  
 2 - In the project directory, install dependencies by running:  
 `npm install`  
 3 - To run the app in the development mode:  
