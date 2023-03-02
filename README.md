@@ -2,7 +2,7 @@
 
 ## Table of Contents: 
 
-[Cloudcase Candidate Programming Exercise](#exercise)  
+[Cloudcase Candidate Programming Exercise - "The problem to be solved"](#exercise)  
 [Live solution - deployed at Netfly](#deployed)   
 [Exercise solution - Onboarding](#solution)  
 [Onboarding Flow](#flow)   
@@ -21,7 +21,7 @@
 ---  
   
 
-## Cloudcase Candidate Programming Exercise    
+## Cloudcase Candidate Programming Exercise - "The problem to be solved"  
  
 Cloudcase (the company and the platform) is focussed on solving complex business problems for our clients.  
 The programming exercise below is designed to allow candidates to show us how they go about solving a business problem.  
