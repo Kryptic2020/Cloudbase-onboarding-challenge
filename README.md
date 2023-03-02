@@ -26,7 +26,8 @@ As part of this exercise can you please create the following:
     
 
 ## Exercise solution - Onboarding
-To keep this exercise simple, we are considering the onboarding will be for an australian organisation, country specific.  
+In order to streamline this exercise, we will focus specifically on the onboarding process for an Australian organization, taking into account the country's unique requirements. To simplify matters, we will assume the most common scenario where the employee claims the tax-free threshold.
+
 The necessary fields for an onboarding form in Australia may vary depending on the company's specific requirements, but generally, an onboarding form in Australia should include the following fields:
 
 - Personal Information: Name, Address, Phone Number, Email, Date of Birth, Tax File Number (TFN)  
@@ -138,11 +139,11 @@ In the project directory, you can execute the test suit by running
   
     
 
-## What the onboarding form does not include or did not care about:
+## What the onboarding form does not include or did not care about: (!IMPORTANT)
 Is is assumed that this exercise does not focus on software development, the real target is on the business problem solving ability.
 - The onboarding.jsx file is too long, affecting readability, hard to mantain.
 - Each section of onboarding.jsx could be separate file, be an individual component by category ex. personal details, bank details, etc
-- Validations has not been implemented as it is out of this scope.
+- Input validations has not been implemented as it is out of this scope.
 - Persistent data has not been implemented as it is out of this scope.
 - UI/UX such as Datepicker, thousand separation, responsible layout has been ignored as it is out of this scope.
 - Anything other than business logic approach has been ignored as it is out of this scope.
