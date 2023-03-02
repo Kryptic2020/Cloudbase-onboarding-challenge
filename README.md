@@ -24,6 +24,16 @@ As part of this exercise can you please create the following:
  ---  
   
     
+## Live solution - deployed at Netfly
+Click on the link below to be redirected to the Onboarding Form webpage   
+
+[Cloudcase Onboarding Form](https://cloudcaseonboarding.netlify.app/)
+
+ 
+
+ ---  
+  
+
 
 ## Exercise solution - Onboarding
 In order to streamline this exercise, we will focus specifically on the onboarding process for an Australian organization, taking into account the country's unique requirements. To simplify matters, we will assume the most common scenario where the employee claims the tax-free threshold.
